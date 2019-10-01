@@ -1,0 +1,32 @@
+<h1 id="tableLabel">Airplanes-Edit</h1>
+
+<form id="AirplaneDto" name="AirplaneDto" #AirplaneDto="ngForm" (ngSubmit)="editatAirplanes(AirplaneDto.value)">
+  <div class="row">
+    <div class="col-md-3">
+      <label>Código do Avião</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" name="CodigoAviao" id="CodigoAviao" ngModel>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label>Modelo</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" name="Modelo" id="Modelo" ngModel>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label>Passageiros</label>
+    </div>
+    <div class="col-md-9">
+      <input type="text" name="Passageiros" id="Passageiros" ngModel>
+    </div>
+  </div>
+
+  <input class="btn btn-primary" type="submit" value="Editar Airplanes" />
+</form>
+
+<button class="btn btn-primary" type="button" [routerLink]="['/airplane']">Voltar</button>

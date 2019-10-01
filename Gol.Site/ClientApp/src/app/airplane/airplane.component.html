@@ -1,0 +1,31 @@
+<h1 id="tableLabel">Airplanes</h1>
+
+<p *ngIf="!airplanes"><em>Loading...</em></p>
+
+<a [routerLink]="['/airplane-insert/']">Adicionar Airplanes</a>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="airplanes">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Código</th>
+      <th>Modelo</th>
+      <th>Passageiros</th>
+      <th>Criação</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let airplane of airplanes">
+      <td>{{ airplane.id }}</td>
+      <td>{{ airplane.codigoAviao }}</td>
+      <td>{{ airplane.modelo }}</td>
+      <td>{{ airplane.passageiros }}</td>
+      <td>{{ airplane.criacao }}</td>
+      <td>
+          <button class="btn btn-primary" type="button" [routerLink]="['/airplane-edit/']">Editar</button>
+          <button class="btn btn-danger" type="button">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

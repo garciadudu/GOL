@@ -1,0 +1,11 @@
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\bin\Debug\netcoreapp3.0\Gol.Airplane.Dominio.deps.json
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\bin\Debug\netcoreapp3.0\Gol.Airplane.Dominio.dll
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\bin\Debug\netcoreapp3.0\Gol.Airplane.Dominio.pdb
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\bin\Debug\netcoreapp3.0\Gol.Airplane.Dados.dll
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\bin\Debug\netcoreapp3.0\Gol.Airplane.Dados.pdb
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\obj\Debug\netcoreapp3.0\Gol.Airplane.Dominio.csprojAssemblyReference.cache
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\obj\Debug\netcoreapp3.0\Gol.Airplane.Dominio.AssemblyInfoInputs.cache
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\obj\Debug\netcoreapp3.0\Gol.Airplane.Dominio.AssemblyInfo.cs
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\obj\Debug\netcoreapp3.0\Gol.Airplane.Dominio.csproj.CopyComplete
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\obj\Debug\netcoreapp3.0\Gol.Airplane.Dominio.dll
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dominio\obj\Debug\netcoreapp3.0\Gol.Airplane.Dominio.pdb

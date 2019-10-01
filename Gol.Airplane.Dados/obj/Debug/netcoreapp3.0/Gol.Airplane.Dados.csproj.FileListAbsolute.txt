@@ -1,0 +1,8 @@
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\bin\Debug\netcoreapp3.0\Gol.Airplane.Dados.deps.json
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\bin\Debug\netcoreapp3.0\Gol.Airplane.Dados.dll
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\obj\Debug\netcoreapp3.0\Gol.Airplane.Dados.AssemblyInfoInputs.cache
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\obj\Debug\netcoreapp3.0\Gol.Airplane.Dados.AssemblyInfo.cs
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\bin\Debug\netcoreapp3.0\Gol.Airplane.Dados.pdb
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\obj\Debug\netcoreapp3.0\Gol.Airplane.Dados.csprojAssemblyReference.cache
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\obj\Debug\netcoreapp3.0\Gol.Airplane.Dados.dll
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Dados\obj\Debug\netcoreapp3.0\Gol.Airplane.Dados.pdb
