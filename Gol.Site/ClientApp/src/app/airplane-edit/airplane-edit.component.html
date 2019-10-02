@@ -1,12 +1,14 @@
 <h1 id="tableLabel">Airplanes-Edit</h1>
 
-<form id="AirplaneDto" name="AirplaneDto" #AirplaneDto="ngForm" (ngSubmit)="editatAirplanes(AirplaneDto.value)">
+<form #AirplaneDto="ngForm" (submit)="onSubmit(AirplaneDto)" autocomplete="off">
+  <input type="hidden" name="Id" id="Id" [(ngModel)]="service.getForm().id" >
+
   <div class="row">
     <div class="col-md-3">
       <label>Código do Avião</label>
     </div>
     <div class="col-md-9">
-      <input type="text" name="CodigoAviao" id="CodigoAviao" ngModel>
+      <input type="text" name="CodigoAviao" id="CodigoAviao" [(ngModel)]="service.getForm().codigoAviao">
     </div>
   </div>
   <div class="row">
@@ -14,7 +16,7 @@
       <label>Modelo</label>
     </div>
     <div class="col-md-9">
-      <input type="text" name="Modelo" id="Modelo" ngModel>
+      <input type="text" name="Modelo" id="Modelo" [(ngModel)]="service.getForm().modelo">
     </div>
   </div>
   <div class="row">
@@ -22,11 +24,9 @@
       <label>Passageiros</label>
     </div>
     <div class="col-md-9">
-      <input type="text" name="Passageiros" id="Passageiros" ngModel>
+      <input type="text" name="Passageiros" id="Passageiros" [(ngModel)]="service.getForm().passageiros">
     </div>
   </div>
 
   <input class="btn btn-primary" type="submit" value="Editar Airplanes" />
 </form>
-
-<button class="btn btn-primary" type="button" [routerLink]="['/airplane']">Voltar</button>

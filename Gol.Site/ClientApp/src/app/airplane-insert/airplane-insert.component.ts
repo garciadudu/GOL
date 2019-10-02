@@ -1,39 +1,20 @@
-import { Component, Inject } from '@angular/core';
-import { HttpClient, HttpHeaders  } from '@angular/common/http';
-
+import { Component } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Airplane } from '../shared/airplane.model';
+import { AirplaneService } from '../shared/airplane.service';
 
 @Component({
   selector: 'airplane-insert',
   templateUrl: './airplane-insert.component.html'
 })
 export class AirplaneInsertComponent {
-    private http: HttpClient;
-    private baseUrl: string;
+    constructor(private service: AirplaneService) { }
 
-    constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-        this.http = http;
-        this.baseUrl = baseUrl;
+    ngOnInit() {
+        this.service.refreshList();
     }
 
     adicionarAirplanes = function (airplane) {
-        // Http Headers
-        var httpOptions = {
-            headers: new HttpHeaders({
-                'Content-Type': 'application/json'
-            })
-        };
-
-        const body = JSON.stringify(airplane);
-        this.http.post(this.baseUrl + 'Airplane/InsereAirplane', body, httpOptions).subscribe(result => {
-        }, error => console.error(error));
+        this.service.postAirplane(airplane);
      }
-
-}
-
-interface Airplane {
-    Id: number;
-    CodigoAviao: string;
-    Modelo: string;
-    Passageiros: number;
-    Criacao: string;
 }

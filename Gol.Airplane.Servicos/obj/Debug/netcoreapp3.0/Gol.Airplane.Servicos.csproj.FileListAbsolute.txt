@@ -1,0 +1,8 @@
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\bin\Debug\netcoreapp3.0\Gol.Airplane.Servicos.deps.json
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\bin\Debug\netcoreapp3.0\Gol.Airplane.Servicos.dll
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\bin\Debug\netcoreapp3.0\Gol.Airplane.Servicos.pdb
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\obj\Debug\netcoreapp3.0\Gol.Airplane.Servicos.csprojAssemblyReference.cache
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\obj\Debug\netcoreapp3.0\Gol.Airplane.Servicos.AssemblyInfoInputs.cache
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\obj\Debug\netcoreapp3.0\Gol.Airplane.Servicos.AssemblyInfo.cs
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\obj\Debug\netcoreapp3.0\Gol.Airplane.Servicos.dll
+C:\Users\Eduardo\source\repos\Gol\Gol.Airplane.Servicos\obj\Debug\netcoreapp3.0\Gol.Airplane.Servicos.pdb

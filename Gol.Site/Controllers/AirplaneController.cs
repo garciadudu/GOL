@@ -35,7 +35,7 @@ namespace Gol.Site.Controllers
             return Json(_airplaneRepositorio.AirplaneLista());
         }
 
-        [HttpPost]
+        [HttpDelete]
         public JsonResult ExcluiAirplane(int Id)
         {
             return Json(_airplaneRepositorio.Excluir(Id));

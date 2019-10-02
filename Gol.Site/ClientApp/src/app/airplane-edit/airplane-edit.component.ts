@@ -1,42 +1,29 @@
-import { Component, Inject } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { AirplaneService } from 'src/app/shared/airplane.service';
+import { Airplane } from 'src/app/shared/airplane.model';
 
 @Component({
   selector: 'airplane-edit',
   templateUrl: './airplane-edit.component.html'
 })
-export class AirplaneEditComponent {
-    private http: HttpClient;
-    private baseUrl: string;
+export class AirplaneEditComponent implements OnInit  {
 
-    constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-        this.http = http;
-        this.baseUrl = baseUrl;
+    constructor(private service: AirplaneService) { }
+
+    ngOnInit() {
+        this.service.formData;
     }
 
-    editatAirplanes = function (airplane) {
-            // Http Headers
-            var httpOptions = {
-                headers: new HttpHeaders({
-                    'Content-Type': 'application/json'
-                })
-            };
-
-            const body = JSON.stringify(airplane);
-
-            this.http.post(this.baseUrl + 'Airplane/AlteraAirplane', body, httpOptions).subscribe(result => {
-            }, error => console.error(error));
+    onSubmit(form: NgForm) {
+        this.updateRecord(form);
     }
 
-    getAirplane(id: number) {
-        return this.http.get<Airplane>(this.baseUrl + 'Airplane/' + id);
-    }
-}
 
-interface Airplane {
-    Id: number;
-    CodigoAviao: string;
-    Modelo: string;
-    Passageiros: number;
-    Criacao: string;
+    updateRecord(form: NgForm) {
+        this.service.putAirplanee(form.value).subscribe(res => {
+            this.service.refreshList();
+        });
+    }
+
 }
